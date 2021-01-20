@@ -1,7 +1,7 @@
 .page-header {
     background-color: rgba(255, 37, 93, 0.8);
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 30px 30px 30px 50px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -11,6 +11,7 @@
 }
 
 .content {
+    background-color: rgb(254, 242, 231);
     margin-left: 40px;
 }
 
@@ -20,12 +21,13 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .dates {
     color: #828282;
-    margin-left: 350px;
+    margin-left: 480px;
     margin-right: 20px;
     margin-bottom: 50px;
 }
