@@ -20,6 +20,14 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+    margin-bottom: 50px;
+}
+
+.dates {
+    color: #828282;
+    margin-left: 350px;
+    margin-right: 20px;
+    margin-bottom: 50px;
 }
 
 .save {
@@ -35,6 +43,10 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+}
+
+.indent {
+    margin-top: 30px;
 }
 
 .post {
