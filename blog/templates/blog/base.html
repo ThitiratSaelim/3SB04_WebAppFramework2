@@ -8,16 +8,22 @@
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
-        <div class="page-header">
+        <div class="page-header" style="background-color: rgba(255, 37, 93, 0.8);
+                                        margin-top: 0;
+                                        padding: 30px 30px 30px 50px;
+                                        font-family: 'Lobster', cursive;
+                                        color: #ffffff;
+                                        font-size: 36pt;
+                                        text-decoration: none;" >
             {% if user.is_authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             {% endif %}
             <h1><a href="/">How to Build a Successful Startup Business</a></h1>   
         </div>
         <div>
-            <h2><a style="color: rgb(102, 153, 153); padding-left: 80px;" href="/">3SB04 WebApplicationFramework2</a></h2>
+            <h2><a style="color: rgb(102, 153, 153); padding-left: 80px; font-family: 'Lobster', cursive;" href="/">3SB04 WebApplicationFramework2</a></h2>
         </div>
-        <div class="content container">
+        <div class="content container" style="font-family: 'Lobster', cursive; background-color: rgb(254, 242, 231);">
             <div class="row">
                 <div class="col-md-8">
                 {% block content %}
