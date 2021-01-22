@@ -9,6 +9,7 @@
             <h2><a href="{% url 'post_detail' pk=post.pk %}" 
                 style="background-color: rgb(204, 255, 204); 
                 font-family: 'Lobster', cursive; 
+                text-decoration: none;
                 color:black;">{{ post.title }}</a></h2>
             <div>
                 <p>{{ post.text|linebreaksbr }}</p>
