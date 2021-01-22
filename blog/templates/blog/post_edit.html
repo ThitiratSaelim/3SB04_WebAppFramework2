@@ -2,7 +2,7 @@
 
 {% block content %}
     <h2 style=" font-family: 'Lobster', cursive;">New post</h2>
-    <form method="POST" class="post-form" style="width: 100%; font-family: 'Lobster', cursive;">{% csrf_token %}
+    <form method="POST" class="post-form" style="width: 150%; font-family: 'Lobster', cursive;">{% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
